@@ -1,0 +1,21 @@
+{
+  "name": "omicron_mongoose",
+  "version": "1.0.0",
+  "description": "Walk through the Mongo in Node via Mongoose app for books",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "antoinette@primeacademy.io",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "module": "^1.2.5",
+    "mongoose": "^4.5.10"
+  }
+}
